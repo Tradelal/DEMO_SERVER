@@ -88,7 +88,7 @@ router.post("/order", async (req, res) => {
             }
 
             sender(email, template, "Order is submitted for confirmation.")
-            sender("bot.tradelal@gmail.com", template2, "New Order Recived.")
+            sender("tradelalbot@gmail.com", template2, "New Order Recived.")
         } catch (error) {
             console.log(error);
         }
